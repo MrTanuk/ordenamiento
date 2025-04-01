@@ -1,6 +1,6 @@
 import os
 try:
-    # If we're in colab, it'll uses this module
+    # If we're in colab, it'll use this module
     from google.colab import drive  
 
     # Mount Google Drive
