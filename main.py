@@ -32,4 +32,4 @@ def listCurrentDirectory(directory):
 
 if __name__ == "__main__":
     # Call function
-    listCurrentDirectory(os.getcwd())
+    listCurrentDirectory(directory)
