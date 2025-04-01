@@ -19,7 +19,6 @@ def listCurrentDirectory(directory):
         print(f"{'Size':<7} {'unit':<5} {'Name'}" )
         for file in files:
             size = os.path.getsize(file)
-            unit = ""
             
             for unit in ["B","KiB", "MiB", "GiB"]:
                 if size < 1024:
